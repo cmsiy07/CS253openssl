@@ -18,9 +18,18 @@ Output will be CBC128lena.bmp
 
 2.) Hashing
 
-To hash using sha-1, sha run shell script:
+To hash using sha-* run shell script:
 
 ./hashing.sh
 
+3.) Public Key
 
+To use SMIME,  run shell script:
 
+./smime.sh
+
+decrpted file would be lena2.tiff
+
+To encrypt using ECDSA, run shell script:
+
+./ECDSA
